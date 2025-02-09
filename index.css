@@ -1,0 +1,25 @@
+body{
+    padding: 10px;
+    margin: 0;
+    background-image: url(https://github.com/JoydeepMallick/Wallpapers/blob/main/wallhalla-12-2560x1440.jpg?raw=true);
+    padding: 10px;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#digital-clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    backdrop-filter: blur(5px);
+    background-color: hsla(0, 0%, 50%, 0.051);
+}
+
+#clockvalue{
+    font-size: 7rem;
+    text-align: center;
+
+}
